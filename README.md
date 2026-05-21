@@ -29,7 +29,7 @@ Para la interfaz web: Selenium webdriver: https://googlechromelabs.github.io/chr
 Instalar todo en el mismo path.
 
 Comando para ejecutar las pruebas
-Para ejecutar todas las pruebas: python -m pytest pre-entrega-automation-testing-julieta-laragarces/tests/test_carrito.py -v (y así con cada test restante)
+Para ejecutar todas las pruebas: python -m pytest tests/test_carrito.py -v (y así con cada test restante)
 
 Comando para generar reporte
-Para generar un reporte HTML: python -m pytest pre-entrega-automation-testing-julieta-laragarces/tests/test_carrito.py -v --html=reporte.html (y así con cada test restante)
+Para generar un reporte HTML: python -m pytest tests/test_carrito.py -v --html=reporte.html (y así con cada test restante)
