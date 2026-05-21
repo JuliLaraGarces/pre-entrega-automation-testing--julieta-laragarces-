@@ -10,7 +10,7 @@ driver.implicitly_wait(5) #Tiempo de espera implícito para encontrar los elemen
 #pero en el proyecto final las voy a moduilarizar para que sea más ordenado y reutilizable.
 #------------------------------------
 #CASO DE USO: NAVEGACIÓN, VALIDACIÓN DE ELEMENTOS Y OBTENCIÓN DE INFORMACIÓN EN EL INVENTARIO
-#Casos de prueba 1: Navegación y obtención de productos en el inventario
+#Caso de prueba 1: Navegación y obtención de productos en el inventario
 #------------------------------------
 try:
     
