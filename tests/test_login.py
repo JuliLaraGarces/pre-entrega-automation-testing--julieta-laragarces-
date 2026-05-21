@@ -10,7 +10,7 @@ driver.implicitly_wait(5) #Tiempo de espera implícito para encontrar los elemen
 #pero en el proyecto final las voy a moduilarizar para que sea más ordenado y reutilizable.
 #------------------------------------
 #CASO DE USO: LOGIN A LA PLATAFORMA
-#Casos de prueba 1: Usuario y contraseña correctos
+#Caso de prueba 1: Usuario y contraseña correctos
 #------------------------------------
 try:
     # Abro la página de SauceDemo
@@ -38,7 +38,7 @@ finally:
 
 #------------------------------------
 #CASO DE USO: LOGIN A LA PLATAFORMA
-#Casos de prueba 2: Usuario y/o contraseña incorrectos
+#Caso de prueba 2: Usuario y/o contraseña incorrectos
 #------------------------------------
 driver = webdriver.Chrome() #instancio el driver de Chrome
 driver.implicitly_wait(5)
